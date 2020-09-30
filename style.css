@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: auto;
+}
+
+button {
+    font-size: 30px;
+    cursor: pointer;
+}
