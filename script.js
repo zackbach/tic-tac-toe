@@ -93,7 +93,7 @@ const playerFactory = (name, symbol) => {
 
     const execWin = () => {
         document.getElementById("winText").textContent = `${name} Wins!`
-        gameController.hasWon = true;
+        hasWon = true;
         let playAgain = document.createElement("button")
         playAgain.textContent = "Play Again?"
         playAgain.id = "playAgain"
